@@ -1,0 +1,10 @@
+-r requirements.txt
+
+# Development dependencies
+pytest>=6.0
+black
+isort
+flake8
+
+# Testing dependencies
+pytest-cov
