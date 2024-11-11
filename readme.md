@@ -4,7 +4,7 @@
 [![Python versions](https://img.shields.io/pypi/pyversions/redactor.svg)](https://pypi.org/project/redactor/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A Python library for text redaction and anonymization, built on top of Microsoft Presidio. A super useful tool for both individuals and enterprises to build custom anonymization layer for prompt and deanonymization for LLM Inference. 
+A Python library for text redaction and anonymization, a wrapper built on top of Microsoft Presidio. Super-useful for both individuals and enterprises building custom prompt anonymization layer for their LLM Inference pipelines.  
 
 ## Features
 
