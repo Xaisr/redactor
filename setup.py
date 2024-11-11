@@ -1,6 +1,5 @@
 from setuptools import setup, find_packages
 
-# Read README.md for long description
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
@@ -23,7 +22,7 @@ setup(
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
-        "Topic :: Security :: Privacy",
+        "Topic :: Security",  # Changed this line
         "Topic :: Text Processing :: General",
     ],
     python_requires=">=3.8",
@@ -32,17 +31,16 @@ setup(
         "presidio-anonymizer>=2.2.0",
         "spacy>=3.0.0",
     ],
-    # Optional dependencies
     extras_require={
         "dev": [
             "pytest>=6.0",
-            "black",  # code formatting
-            "isort",  # import sorting
-            "flake8",  # code linting
+            "black",
+            "isort",
+            "flake8",
         ],
         "test": [
             "pytest>=6.0",
-            "pytest-cov",  # code coverage
+            "pytest-cov",
         ],
     }
 )
